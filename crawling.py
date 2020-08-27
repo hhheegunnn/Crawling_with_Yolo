@@ -41,7 +41,7 @@ if site == 'naver':
 
     for img in imgs:
         link = img.get_attribute('src')
-        print(link)
+        #print(link)
         if 'http' in link:
             links.append(link)
 
